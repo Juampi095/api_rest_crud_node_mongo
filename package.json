@@ -1,0 +1,23 @@
+{
+  "name": "api_rest_crud_node",
+  "version": "1.0.0",
+  "description": "api con mongo y node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "author": "JP",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "env-var": "^7.4.1",
+    "express": "^4.18.3",
+    "json-server": "^1.0.0-alpha.23",
+    "mongoose": "^8.2.1"
+  }
+}
