@@ -10,7 +10,7 @@ const bookRoutes = require("./routes/book.routes");
 const app = express();
 app.use(bodyParser.json());
 
-//Acá conectaremos la base de datos:
+//Acá conectaremos la base de datos de Mongo:
 mongoose.connect(process.env.MONGO_URL, { dbName: process.env.MONGO_DB_NAME });
 const db = mongoose.connection;
 
